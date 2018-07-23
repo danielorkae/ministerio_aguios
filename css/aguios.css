@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fontes/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fontes/Roboto-Bold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url("../fontes/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url("../fontes/PlayfairDisplay-Bold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url("../fontes/PlayfairDisplay-Italic.ttf");
+	font-style: italic;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url("../fontes/PlayfairDisplay-BoldItalic.ttf");
+	font-weight: bold;
+	font-style: italic;
+}
+
+h1{
+	font-family: Playfair Display;
+	font-weight: bold;
+	font-size: 90px;
+	line-height: 70px;
+}
+
+body, html{
+	font-family: Roboto;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	background-image: url("../img/header_background.png");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-top{
+	padding-top: 30px;
+}
+
+.navbar-nav{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 14px;
+}
+
+.navbar-nav > .nav-item{
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+
+header i {
+	margin-left: 5px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #bbb;
+	border-radius: 50%;
+}
+
+.fa-facebook-f{
+	padding: 10px 0 0 15px;
+}
+
+.fa-youtube{
+	padding: 10px;
+}
+
+header i:first-child {
+	margin-left: 0px;
+}
+
+.frase-destaque
+{
+	position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+}
+
+.frase-destaque .frase
+{
+	font-family: Playfair Display;
+	font-size: 42px;
+	text-align: center;
+	padding: 0 20px 0 20px;
+}
+.frase-destaque p
+{
+	text-align: center;
+}
+
+.somos{
+	margin-left: 80px;
+}
+
+#quem-somos{
+	margin-top: 50px;
+}
+
+#quem-somos h1{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 425px){
+	.frase-destaque .frase
+	{
+	font-size: 36px;
+	}
+	h1{
+	font-size: 70px;
+	}
+}
+
+@media (max-width: 768px){
+	#nav-mobile{
+		display: block;
+	}
+	#nav-desktop{
+		display: none;
+	}
+}
+
+@media (min-width: 769px){
+	#nav-mobile{
+		display: none;
+	}
+	#nav-desktop{
+		display: block;
+	}
+}
