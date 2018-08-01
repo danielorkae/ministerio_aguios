@@ -1,6 +1,6 @@
 #navMobile{
     background: rgba(255,255,255,0.9);
-    z-index: 999;
+    z-index: 2;
     margin-top: 15px;
     padding: 10px 0;
 }

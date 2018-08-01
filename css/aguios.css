@@ -33,6 +33,11 @@
 	font-style: italic;
 }
 
+h1, h2, h3, h4, h5, h6{
+	font-family: Playfair Display;
+	font-weight: bold;
+}
+
 h1{
 	font-family: Playfair Display;
 	font-weight: bold;
@@ -52,8 +57,6 @@ header {
 	background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
-	border-bottom-left-radius: 100% 15%;
-    border-bottom-right-radius: 100% 15%;
 }
 
 .navbar-top{
@@ -122,6 +125,14 @@ header i:first-child {
 
 #quem-somos h1{
 	margin-bottom: 40px;
+}
+
+.social-icons a > i{
+	transition: background 0.8s;
+}
+
+.social-icons a > i:hover{
+	background: #eee;
 }
 
 @media (max-width: 425px){

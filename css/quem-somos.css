@@ -1,0 +1,30 @@
+#casais{
+    margin: 30px 0;
+}
+
+.casal{
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.casal-info{
+    border: 1px solid #ccc;
+    border-radius: 100px !important;
+    cursor: pointer;
+}
+
+.casal-info img{
+    width: 100px;
+}
+
+.casal-info:hover{
+    background: #eee;
+}
+
+.nome-do-casal{
+    padding-top: 1em 0;
+}
+
+.card{
+    border-color: transparent;
+}
