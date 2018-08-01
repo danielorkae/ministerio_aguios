@@ -29,8 +29,8 @@
   </button>
   <!-- Coloquei os botões sociais antes da div do menu -->
   <span class="navbar-text float-right social-icons">
-    <a href="https://www.facebook.com/aguios.org"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.youtube.com/ministerioaguios"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.facebook.com/aguios.org" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.youtube.com/ministerioaguios" target="_blank"><i class="fab fa-youtube"></i></a>
  </span>
  
   <div class="collapse navbar-collapse justify-content-md-center" id="navMobile">
@@ -39,7 +39,7 @@
         <a class="nav-link" href="#quem-somos">Quem somos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Agenda</a>
+        <a class="nav-link" href="#agenda">Agenda</a>
       </li>  
       <li class="nav-item">
         <a class="nav-link" href="#">Vídeos</a>
@@ -67,7 +67,7 @@
         <a class="nav-link" href="#quem-somos">Quem somos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Agenda</a>
+        <a class="nav-link" href="#agenda">Agenda</a>
       </li>  
       <li class="nav-item">
         <a class="nav-link" href="#">Vídeos</a>
@@ -81,8 +81,8 @@
     </ul>    
   </div>
   <span class="navbar-text float-right social-icons">
-      <a href="https://www.facebook.com/aguios.org"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.youtube.com/ministerioaguios"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/aguios.org" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/ministerioaguios" target="_blank"><i class="fab fa-youtube"></i></a>
    </span>
 </div>
 </nav>
@@ -115,14 +115,19 @@
     </div>
     
     <div class="row" id="casais">    
-      <div class="accordion row" id="accordionExample">
-          <div class="col-md card casal">
+      <div class="accordion" id="accordionExample">
+        <div class="row">
+        <div class="col-md-4">
+          <div class="card casal">
             <div class="card-header casal-info" id="headingOne">
               <div class="media collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <img class="mr-3" src="img/user.png" alt="Generic placeholder image">
+                  <img class="mr-3" src="img/wendell-oriana.jpg" alt="Generic placeholder image">
                   <div class="media-body">
-                    <h5 class="mt-0">Wendell e Oriana Costa</h5>
+                    <h5 class="mt-0">Wendell e<br/>Oriana Costa <br/>
+                        <i class="fas fa-angle-down"></i>
+                    </h5>
                   </div>
+                </div>
               </div>
             </div>
         
@@ -132,13 +137,17 @@
               </div>
             </div>
           </div>
-          <div class="col-md card casal">
+          <div class="col-md-4">
+          <div class="card casal">
             <div class="card-header casal-info" id="headingTwo">
               <div class="media collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <img class="mr-3" src="img/user.png" alt="Generic placeholder image">
+                  <img class="mr-3" src="img/rulyanne-gustavo.jpg" alt="Generic placeholder image">
                   <div class="media-body">
-                    <h5 class="mt-0">Gustavo e Rulyanne Silva</h5>
+                    <h5 class="mt-0">Gustavo e<br/>Rulyanne Silva<br/>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
                   </div>
+                </div>
               </div>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -147,13 +156,17 @@
               </div>
             </div>
           </div>
-          <div class="col-md card casal">
+          <div class="col-md-4">
+          <div class="card casal">
             <div class="card-header casal-info" id="headingThree">
               <div class="media collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <img class="mr-3" src="img/user.png" alt="Generic placeholder image">
+                  <img class="align-self-center mr-3" src="img/bruna-klayson.jpg" alt="Generic placeholder image">
                   <div class="media-body">
-                    <h5 class="mt-0">Walterklayson e Bruna Monastirski</h5>
+                    <h5 class="mt-0">Walterklayson e<br/>Bruna Monastirski<br/>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
                   </div>
+                </div>
               </div>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -163,6 +176,7 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
 		
 	</div>
@@ -172,6 +186,7 @@
   <div class="pelicula-agenda">
     <div class="container">
       <h1>Agenda</h1>
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=webnatal.net_s9c7htntqrtmqmorffh559l13c%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FRecife" style="border-width:0" frameborder="0" scrolling="no"></iframe>
     </div>
   </div>
 </section>

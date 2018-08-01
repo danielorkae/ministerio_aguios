@@ -4,21 +4,32 @@
 
 .casal{
     max-width: 400px;
-    min-width: 300px;
 }
 
 .casal-info{
-    border: 1px solid #ccc;
-    border-radius: 100px !important;
     cursor: pointer;
+    background: none;
+    border: 0;    
+	transition: .3s;	
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
 }
 
+
 .casal-info img{
-    width: 100px;
+    width: 130px;
+    border: 2px solid #ccc;
+    padding: 10px;
 }
 
 .casal-info:hover{
-    background: #eee;
+    -webkit-filter: none;	
+	filter: none;	
+}
+
+.card-header {
+    padding: 0;
 }
 
 .nome-do-casal{
@@ -27,4 +38,12 @@
 
 .card{
     border-color: transparent;
+}
+
+.casal-info .media-body{
+    text-align: center;
+}
+
+.accordion{
+    width: 100%;
 }
