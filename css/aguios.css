@@ -41,8 +41,18 @@ h1, h2, h3, h4, h5, h6{
 h1{
 	font-family: Playfair Display;
 	font-weight: bold;
-	font-size: 90px;
+	font-size: 70px;
 	line-height: 70px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+p{ 	
+	text-align: center;
+}
+
+section{
+	padding-bottom: 40px;
 }
 
 body, html{
@@ -120,12 +130,8 @@ header i:first-child {
 	margin-left: 80px;
 }
 
-#quem-somos{
-	margin-top: 50px;
-}
-
-#quem-somos h1{
-	margin-bottom: 40px;
+#quem-somos p{
+	text-align: center;
 }
 
 .social-icons a > i{
@@ -162,4 +168,12 @@ header i:first-child {
 	#nav-desktop{
 		display: block;
 	}
+}
+
+#wendell-oriana{
+	background-color: #bbb;
+	background: url('../img/fundadores.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

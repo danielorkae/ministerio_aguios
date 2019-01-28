@@ -1,15 +1,19 @@
 #agenda{
-    background: url('../img/header_background.png');
+    background: url('../img/agenda.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 .pelicula-agenda{
     background: linear-gradient(to right, rgba(153,134,117,0.5), rgba(179,179,179,0.5));
 }
 
-#agenda h1{
-    padding: 50px 0;
+.view-cap, .view-container-border {
+    background-color: red !important;
+}
+
+.date-label{
+    font-size: 60px;
 }
