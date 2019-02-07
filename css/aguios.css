@@ -222,12 +222,8 @@ header i:first-child {
     background-size: cover;
 }
 
-@media (min-width: 769px){
+@media (max-width: 768px){
 	#wendell-oriana{
-		background-color: #bbb;
-		background: url('../img/fundadores.jpg');
-		background-position: top center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background: url('../img/fundadores-mobile.jpg');
 	}
 }
