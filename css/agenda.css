@@ -1,9 +1,11 @@
 #agenda{
-    background: url('../img/agenda.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-attachment: fixed;*/
+    padding-top: 40px;
+    background-color:  #eee;
+    text-align: left;
+}
+
+#agenda h1{
+    padding-top: 0;
 }
 
 .pelicula-agenda{
@@ -16,4 +18,18 @@
 
 .date-label{
     font-size: 60px;
+}
+
+.agenda-data{
+    border: 2px solid #303030;
+    padding: 15px;
+    color: #303030;
+    font-size: 28px;
+    margin-right: 15px;
+}
+
+#agenda li{
+    list-style: none;
+    margin: 15px 0px;
+    font-weight: bold;
 }

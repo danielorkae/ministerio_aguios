@@ -142,6 +142,50 @@ header i:first-child {
 	background: #eee;
 }
 
+#videos{
+	text-align: center;
+	background-image: url("../img/header_background.png");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#videos .btn-outline-dark{
+	margin-top: 50px !important;
+}
+
+
+#blogs .card {
+	border-color: #303030 !important;
+	text-align: center;
+	border-radius: 0;
+	border-width: 2px;
+	margin-bottom: 15px;
+}
+
+
+.btn.btn-outline-dark{
+	border-color: #303030 !important;
+	border-radius: 0;
+	border-width: 2px;
+	padding: 12px 30px;
+	color: #303030;
+	font-weight: bold;
+}
+
+.btn.btn-outline-dark:hover{
+	color: #fff;
+}
+
+
+.btn.btn-primary{
+	background-color: #303030;
+	border: 0;
+	padding: 12px 30px;
+	border-radius: 0;
+}
+
 @media (max-width: 425px){
 	.frase-destaque .frase
 	{
@@ -176,4 +220,14 @@ header i:first-child {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (min-width: 769px){
+	#wendell-oriana{
+		background-color: #bbb;
+		background: url('../img/fundadores.jpg');
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
