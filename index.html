@@ -158,22 +158,15 @@
   <section id="videos">
     <div class="container">
       <h1>Vídeos</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <iframe width="300" height="168" src="https://www.youtube.com/embed/6wxrN1f2Tus" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-md-4">
-          <iframe width="300" height="168" src="https://www.youtube.com/embed/YQh7A-MccQU" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-md-4">
-          <iframe width="300" height="168" src="https://www.youtube.com/embed/sH_dTil_tFQ" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div id="videoContainer" class="row">
+        <div class="col-sm-12">
+          <p class="text-center">Nenhum vídeo para mostrar agora... Tente novamente mais tarde.</p>
         </div>
       </div>
-      <button type="button" class="btn btn-outline-dark">Acesse o canal &nbsp;<i
-          class="fas fa-angle-right"></i></button>
+      <a class="btn btn-outline-dark" href="https://www.youtube.com/channel/UC48j0zZ3RJf6wiicR_DXIQQ" target="_blank"
+        rel="noopener">
+        Acesse o canal &nbsp;<i class="fas fa-angle-right"></i>
+      </a>
     </div>
   </section>
 
@@ -241,12 +234,10 @@
   </section>
 
   <!-- JAVASCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/modal.js"></script>
-
+  <script src="js/youtubefeed.js"></script>
 </body>
 
 </html>
